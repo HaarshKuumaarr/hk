@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Inderjeet Gupta - Dean's Office</title>
+  <meta name="description" content="Official website of Dr. Inderjeet Gupta, Dean. Academic leadership, research, and institutional excellence." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1e40af',
+            secondary: '#dc2626',
+            accent: '#f59e0b',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white/95 backdrop-blur z-50 shadow-lg border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-20">
+      <div class="flex items-center space-x-3">
+        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+          <i class="fas fa-graduation-cap text-white text-xl"></i>
+        </div>
+        <div>
+          <span class="font-bold text-xl text-primary">Dr. Inderjeet Gupta</span>
+          <div class="text-sm text-gray-600">Dean's Office</div>
+        </div>
+      </div>
+      <div class="space-x-8 hidden lg:block">
+        <a href="#home" class="hover:text-primary font-medium">Home</a>
+        <a href="#about" class="hover:text-primary font-medium">About</a>
+        <a href="#leadership" class="hover:text-primary font-medium">Leadership</a>
+        <a href="#research" class="hover:text-primary font-medium">Research</a>
+        <a href="#news" class="hover:text-primary font-medium">News</a>
+        <a href="#contact" class="hover:text-primary font-medium">Contact</a>
+      </div>
+      <button id="nav-toggle" class="lg:hidden text-primary focus:outline-none">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    <div id="nav-menu" class="lg:hidden hidden px-4 pb-6 bg-white border-t border-gray-200">
+      <div class="space-y-4 pt-4">
+        <a href="#home" class="block py-2 hover:text-primary font-medium">Home</a>
+        <a href="#about" class="block py-2 hover:text-primary font-medium">About</a>
+        <a href="#leadership" class="block py-2 hover:text-primary font-medium">Leadership</a>
+        <a href="#research" class="block py-2 hover:text-primary font-medium">Research</a>
+        <a href="#news" class="block py-2 hover:text-primary font-medium">News</a>
+        <a href="#contact" class="block py-2 hover:text-primary font-medium">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-32 pb-20 bg-gradient-to-br from-primary via-blue-700 to-blue-900 text-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            Dr. Inderjeet Gupta
+          </h1>
+          <h2 class="text-2xl lg:text-3xl font-medium mb-6 text-blue-100">
+            Dean & Academic Leader
+          </h2>
+          <p class="text-xl mb-8 text-blue-100 leading-relaxed">
+            Leading academic excellence, fostering innovation, and shaping the future of education through visionary leadership and dedicated commitment to student success.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#about" class="bg-accent text-white px-8 py-4 rounded-lg font-semibold shadow-lg hover:bg-yellow-500 transition duration-300">
+              Learn More
+            </a>
+            <a href="#contact" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition duration-300">
+              Get in Touch
+            </a>
+          </div>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80" 
+               alt="Dr. Inderjeet Gupta" 
+               class="w-80 h-80 rounded-full mx-auto border-8 border-white shadow-2xl object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 text-primary">About Dr. Inderjeet Gupta</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-gray-800">Academic Excellence & Leadership</h3>
+          <p class="text-lg mb-6 text-gray-700 leading-relaxed">
+            Dr. Inderjeet Gupta brings over 20 years of distinguished academic leadership and research excellence. 
+            As Dean, he has transformed the institution into a center of academic innovation and student success.
+          </p>
+          <p class="text-lg mb-6 text-gray-700 leading-relaxed">
+            His visionary approach combines traditional academic values with modern educational methodologies, 
+            ensuring students receive world-class education that prepares them for global challenges.
+          </p>
+          <div class="grid grid-cols-2 gap-6 mt-8">
+            <div class="text-center">
+              <div class="text-3xl font-bold text-primary mb-2">20+</div>
+              <div class="text-gray-600">Years Experience</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-primary mb-2">500+</div>
+              <div class="text-gray-600">Research Papers</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-primary mb-2">50+</div>
+              <div class="text-gray-600">Awards</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-primary mb-2">1000+</div>
+              <div class="text-gray-600">Students Mentored</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-2xl p-8">
+          <h4 class="text-xl font-bold mb-6 text-gray-800">Key Achievements</h4>
+          <div class="space-y-4">
+            <div class="flex items-start space-x-4">
+              <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fas fa-trophy text-white text-sm"></i>
+              </div>
+              <div>
+                <h5 class="font-semibold text-gray-800">National Education Excellence Award</h5>
+                <p class="text-gray-600">Recognized for outstanding contributions to higher education</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fas fa-medal text-white text-sm"></i>
+              </div>
+              <div>
+                <h5 class="font-semibold text-gray-800">Research Innovation Prize</h5>
+                <p class="text-gray-600">Pioneering research in educational technology and pedagogy</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <i class="fas fa-star text-white text-sm"></i>
+              </div>
+              <div>
+                <h5 class="font-semibold text-gray-800">Student Success Champion</h5>
+                <p class="text-gray-600">Dedicated to improving student outcomes and career readiness</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section id="leadership" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 text-primary">Leadership Vision</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition duration-300">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-lightbulb text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4 text-gray-800">Innovation</h3>
+          <p class="text-gray-600">Fostering a culture of innovation and creative thinking across all academic programs.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition duration-300">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-users text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4 text-gray-800">Collaboration</h3>
+          <p class="text-gray-600">Building strong partnerships with industry, government, and international institutions.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition duration-300">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-chart-line text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4 text-gray-800">Excellence</h3>
+          <p class="text-gray-600">Maintaining the highest standards of academic quality and student achievement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 text-primary">Research & Publications</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-gray-800">Research Focus Areas</h3>
+          <div class="space-y-4">
+            <div class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg">
+              <i class="fas fa-microscope text-primary text-xl"></i>
+              <div>
+                <h4 class="font-semibold text-gray-800">Educational Technology</h4>
+                <p class="text-gray-600">Advancing digital learning methodologies</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg">
+              <i class="fas fa-brain text-primary text-xl"></i>
+              <div>
+                <h4 class="font-semibold text-gray-800">Cognitive Learning</h4>
+                <p class="text-gray-600">Understanding student learning patterns</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg">
+              <i class="fas fa-globe text-primary text-xl"></i>
+              <div>
+                <h4 class="font-semibold text-gray-800">Global Education</h4>
+                <p class="text-gray-600">International academic partnerships</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-gray-800">Recent Publications</h3>
+          <div class="space-y-4">
+            <div class="border-l-4 border-primary pl-4">
+              <h4 class="font-semibold text-gray-800">"Digital Transformation in Higher Education"</h4>
+              <p class="text-gray-600">Journal of Educational Innovation, 2024</p>
+            </div>
+            <div class="border-l-4 border-primary pl-4">
+              <h4 class="font-semibold text-gray-800">"Student Success in the Digital Age"</h4>
+              <p class="text-gray-600">International Education Review, 2023</p>
+            </div>
+            <div class="border-l-4 border-primary pl-4">
+              <h4 class="font-semibold text-gray-800">"Leadership in Academic Excellence"</h4>
+              <p class="text-gray-600">Higher Education Management, 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 text-primary">Latest News & Updates</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=400&q=80" alt="News 1" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-gray-500 mb-2">March 15, 2024</div>
+            <h3 class="text-xl font-bold mb-3 text-gray-800">New Research Center Inauguration</h3>
+            <p class="text-gray-600 mb-4">Dr. Gupta inaugurated the new Center for Educational Innovation, marking a significant milestone in our academic journey.</p>
+            <a href="#" class="text-primary font-semibold hover:underline">Read More</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+          <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=400&q=80" alt="News 2" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-gray-500 mb-2">March 10, 2024</div>
+            <h3 class="text-xl font-bold mb-3 text-gray-800">International Conference Success</h3>
+            <p class="text-gray-600 mb-4">The annual international education conference hosted by our institution was a resounding success with 500+ participants.</p>
+            <a href="#" class="text-primary font-semibold hover:underline">Read More</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+          <img src="https://images.unsplash.com/photo-1523240794102-9ebd172b9d91?auto=format&fit=crop&w=400&q=80" alt="News 3" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <div class="text-sm text-gray-500 mb-2">March 5, 2024</div>
+            <h3 class="text-xl font-bold mb-3 text-gray-800">Student Achievement Awards</h3>
+            <p class="text-gray-600 mb-4">Celebrating outstanding student achievements and recognizing academic excellence across all departments.</p>
+            <a href="#" class="text-primary font-semibold hover:underline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 text-primary">Get in Touch</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-gray-800">Contact Information</h3>
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                <i class="fas fa-map-marker-alt text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Office Location</h4>
+                <p class="text-gray-600">Dean's Office, Main Building<br>Floor 3, Room 301</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                <i class="fas fa-phone text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Phone</h4>
+                <p class="text-gray-600">+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                <i class="fas fa-envelope text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Email</h4>
+                <p class="text-gray-600">dean@university.edu</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                <i class="fas fa-clock text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Office Hours</h4>
+                <p class="text-gray-600">Monday - Friday<br>9:00 AM - 5:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-gray-800">Send a Message</h3>
+          <form id="contact-form" class="space-y-4">
+            <div class="grid md:grid-cols-2 gap-4">
+              <input type="text" name="name" placeholder="Your Name" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary" />
+              <input type="email" name="email" placeholder="Your Email" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary" />
+            </div>
+            <input type="text" name="subject" placeholder="Subject" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary" />
+            <textarea name="message" placeholder="Your Message" rows="5" required class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+            <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+              Send Message
+            </button>
+          </form>
+          <div id="form-message" class="mt-4 text-center text-green-600 font-semibold hidden">Thank you! Your message has been sent successfully.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Chatbot -->
+  <div id="chatbot-container" class="fixed bottom-6 right-6 z-50">
+    <div id="chatbot-toggle" class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
+      <i class="fas fa-comments text-white text-xl"></i>
+    </div>
+    
+    <div id="chatbot-window" class="hidden absolute bottom-20 right-0 w-96 h-[600px] bg-white rounded-2xl shadow-2xl border border-gray-200 flex flex-col">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 rounded-t-2xl flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <div class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+            <i class="fas fa-robot text-white text-sm"></i>
+          </div>
+          <div>
+            <h3 class="font-semibold text-sm">Dean's Office Assistant</h3>
+            <p class="text-xs text-blue-100">AI-powered help</p>
+          </div>
+        </div>
+        <button id="chatbot-close" class="text-white hover:text-gray-200 transition duration-200">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <!-- Messages Area -->
+      <div id="chatbot-messages" class="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
+        <div class="flex items-start space-x-3">
+          <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-robot text-white text-xs"></i>
+          </div>
+          <div class="bg-white rounded-2xl p-4 shadow-sm max-w-xs lg:max-w-md">
+            <p class="text-sm text-gray-800 leading-relaxed">Hello! I'm your AI assistant for the Dean's Office. How can I help you today? I can assist with appointments, office information, research queries, and more.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Input Area -->
+      <div class="p-4 border-t border-gray-200 bg-white rounded-b-2xl">
+        <div class="flex space-x-2">
+          <div class="flex-1 relative">
+            <input type="text" id="chatbot-input" placeholder="Type your message..." class="w-full border border-gray-300 rounded-2xl px-4 py-3 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm">
+            <button id="chatbot-send" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-600 text-white p-2 rounded-full hover:shadow-lg transition duration-200">
+              <i class="fas fa-paper-plane text-xs"></i>
+            </button>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-gray-500 text-center">
+          Press Enter to send • AI Assistant
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+              <i class="fas fa-graduation-cap text-white"></i>
+            </div>
+            <span class="font-bold text-xl">Dr. Inderjeet Gupta</span>
+          </div>
+          <p class="text-gray-400">Leading academic excellence and fostering innovation in higher education.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#about" class="hover:text-white">About</a></li>
+            <li><a href="#leadership" class="hover:text-white">Leadership</a></li>
+            <li><a href="#research" class="hover:text-white">Research</a></li>
+            <li><a href="#news" class="hover:text-white">News</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Contact</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>dean@university.edu</li>
+            <li>+91 98765 43210</li>
+            <li>Dean's Office, Main Building</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Follow Us</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2024 Dr. Inderjeet Gupta - Dean's Office. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
